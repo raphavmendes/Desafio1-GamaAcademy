@@ -1,0 +1,152 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+img {
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    border: red solid 2px;
+    object-fit: cover;
+}
+
+.header{
+    background: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header > p {
+    text-decoration: underline red;
+    font-style: italic;
+    color: yellow;
+    font-size: 35px;
+    padding-left: 5px;
+}
+
+.header > img {
+    max-width: 100%;
+    width: 150px;
+    height: 60px;
+    border: none;
+    padding-left: 2px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 5px;
+}
+
+.menu li a {
+    display: block;
+    padding: 3px;
+}
+
+/* Flex box 1*/
+
+.flex1 {
+    background-color: gray;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width:800px;
+    margin: 0 auto;
+    background-color: gray;
+    padding-bottom: 35px;
+}
+
+.flex > div {
+    margin: 10px;
+    flex:1 1 200px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex > div > p {
+    padding: 5px 5px;
+    text-decoration: underline;
+    font-size: 1.0rem;
+    font-family: Arial;
+}
+
+.flex > h1 {
+    font-size:2.5rem;
+    margin-bottom: 0mm;
+    margin-left: 200px;
+}
+
+.flex img:hover {
+    zoom: 125%;
+}
+
+.preco {
+    font-size: 1,5rem;
+    color: red;
+    font-weight: bold;
+}
+
+/* Input*/
+
+#retorno {
+    background-color: rosybrown;
+    width: 260px;
+    height: 30px
+}
+
+#retorno:hover {
+    background-color:white;
+}
+
+button {
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid black;
+}
+
+.email > div {
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: yellow;
+}
+
+/*Rodapé*/
+
+.rodape > div {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 0.5rem;
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 100px;
+    height:30px;
+    padding-top: 5px;
+}
